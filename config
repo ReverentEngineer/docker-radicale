@@ -1,0 +1,11 @@
+# -*- mode: conf -*-
+# vim:ft=cfg
+
+[server]
+hosts = 0.0.0.0:80
+
+[auth]
+type = http_x_remote_user
+
+[rights]
+type = owner_write
